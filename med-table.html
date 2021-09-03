@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button type="button" id="easy"><a href="index.html">Easy</a></button>
+    <button type="button" id="medium"><a href="med-table.html">Medium</a></button>
+    <button type="button" id="hard"><a href="hard-table.html">Hard</a></button>
+
+    <table>
+        <tr>
+            <td id="1" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="2" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="3" class="square1"><input type="text" value="6" disabled class="disabled"></td>
+            <td id="4" class="square2"><input type="text" value="4" disabled class="disabled"></td>
+            <td id="5" class="square2"><input type="text" value="1" disabled class="disabled"></td>
+            <td id="6" class="square2" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="7" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="8" class="square3"><input type="text" value="7" disabled class="disabled"></td>
+            <td id="9" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+        <tr>
+            <td id="11" class="square1"><input type="text" value="5" disabled class="disabled"></td>
+            <td id="12" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="13" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="14" class="square2" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="15" class="square2"><input type="text" value="6" disabled class="disabled"></td>
+            <td id="16" class="square2"><input type="text" value="3" disabled class="disabled"></td>
+            <td id="17" class="square3"><input type="text" value="4" disabled class="disabled"></td>
+            <td id="18" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="19" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+        <tr>
+            <td id="21" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="22" class="square1"><input type="text" value="3" disabled class="disabled"></td>
+            <td id="23" class="square1" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="24" class="square2" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="25" class="square2" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="26" class="square2" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="27" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="28" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="29" class="square3" onmousedown="highlightBorder(this);"><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td id="31" class="square4" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="32" class="square4"><input type="text" value="6" disabled class="disabled"></td>
+            <td id="33" class="square4"><input type="text" value="4" disabled class="disabled"></td>
+            <td id="34" class="square5" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="35" class="square5" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="36" class="square5"><input type="text" value="1" disabled class="disabled"></td>
+            <td id="37" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="38" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="39" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+        <tr>
+            <td id="41" class="square4" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="42" class="square4" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="43" class="square4"><input type="text" value="3" disabled class="disabled"></td>
+            <td id="44" class="square5"><input type="text" value="6" disabled class="disabled"></td>
+            <td id="45" class="square5" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="46" class="square5"><input type="text" value="2" disabled class="disabled"></td>
+            <td id="47" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="48" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="49" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+        <tr>
+            <td id="51" class="square4" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="52" class="square4"><input type="text" value="8" disabled class="disabled"></td>
+            <td id="53" class="square4"><input type="text" value="2" disabled class="disabled"></td>
+            <td id="54" class="square5"><input type="text" value="5" disabled class="disabled"></td>
+            <td id="55" class="square5" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="56" class="square5"><input type="text" value="9" disabled class="disabled"></td>
+            <td id="57" class="square6" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="58" class="square6"><input type="text" value="1" disabled class="disabled"></td>
+            <td id="59" class="square6"><input type="text" value="3" disabled class="disabled"></td>
+        </tr>
+        <tr>
+            <td id="61" class="square7" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="62" class="square7"><input type="text" value="4" disabled class="disabled"></td>
+            <td id="63" class="square7" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="64" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="65" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="66" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="67" class="square9"><input type="text" value="8" disabled class="disabled"></td>
+            <td id="68" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="69" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+        <tr>
+            <td id="71" class="square7" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="72" class="square7"><input type="text" value="2" disabled class="disabled"></td>
+            <td id="73" class="square7" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="74" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="75" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="76" class="square8" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="77" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="78" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="79" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td id="81" class="square7"><input type="text" value="3" disabled class="disabled"></td>
+            <td id="82" class="square7"><input type="text" value="7" disabled class="disabled"></td>
+            <td id="83" class="square7" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="84" class="square8"><input type="text" value="2" disabled class="disabled"></td>
+            <td id="85" class="square8"><input type="text" value="8" disabled class="disabled"></td>
+            <td id="86" class="square8"><input type="text" value="4" disabled class="disabled"></td>
+            <td id="87" class="square9"><input type="text" value="1" disabled class="disabled"></td>
+            <td id="88" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+            <td id="89" class="square9" onmousedown="highlightBorder(this);"><input type="text"></td>
+        </tr>
+    </table>
+    <button id="validate_btn" type="button">Validate</button>
+    </body>
+    <script src="script.js"></script>
+</html>

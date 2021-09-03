@@ -1,0 +1,70 @@
+body {
+  margin: auto;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 25px;
+}
+table {
+  text-align: center;
+  margin: auto;
+  border: 1px solid #344861;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+tr td {
+  border: 1px solid #bec6d4;
+}
+td {
+  height: 60px;
+  width: 60px;
+}
+td:first-child {
+  border-left: solid #344861;
+}
+td:nth-child(3n) {
+  border-right: solid #344861;
+}
+tr:first-child {
+  border-top: solid #344861;
+}
+tr:nth-child(3n) td {
+  border-bottom: solid #344861;
+}
+input {
+  height: 9vh;
+  width: 5vw;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: center;
+}
+.disabled {
+  background-color: rgb(250, 243, 233);
+}
+.change_background{
+  background-color: rgba(143, 162, 202, 0.233);
+}
+
+input:hover{
+  background-color: #9db8eb;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+button{
+  padding: 10px;
+  background-color:rgb(122, 134, 139);
+  border: none;
+}
+.instance{
+  background-color: rgb(209, 171, 181);
+}
+
+.changebg{
+  background-color: rgb(160, 190, 235);
+}
+.dupes{
+  background-color: #8aabe9;
+}
